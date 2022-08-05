@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="AkaKitsune Project Website"/>
+        <meta name="author" content="alzhahir.com"/>
+        <meta property="og:title" content="Network Status | AkaKitsune Project"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://status.mc.alzhahir.com"/>
+        <meta property="og:image" content="https://api.alzhahir.com/static/favicon.png"/>
+        <link rel="icon" type="image/png" href="https://api.alzhahir.com/static/favicon.png"/>
+        <link rel="stylesheet" href="https://api.alzhahir.com/styles.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Network Status | The New AkaKitsune Project</title>
+    </head>
+    <body>
+        <div class="headerBar">
+            <a href=https://www.alzhahir.com>
+                <img class="alzlogo" src="https://api.alzhahir.com/static/images/logos/alzhahir/alz-logo-no-outline.png" alt="Website Logo">
+            </a>
+            <a href="https://mc.alz.moe" class="titletext">Network Status</a>
+            <button onclick="document.location='https://panel.mc.alz.moe'" type="button" class="headerButton">GO TO CONSOLE</button>
+        </div>
+        <div class="contents">
+            <div class="pageTitle">
+                <h1>AkaKitsune Project Network Status</h1>
+            </div>
+            <h2>What is this about?</h2>
+            <a>This page lists all of the servers available and their statuses.</a>
+            <h2>Server statuses</h2>
+            <div id="loadingSpinner">
+                <svg id="subjectSpinner" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                <circle class="path" fill="none" stroke-width="6" stroke-linecap="square" cx="33" cy="33" r="30">
+                </circle></svg>
+            </div>
+            <table class="table" id="statusTable"></table>
+        </div>
+        <div class="footerBar">
+            <a class="footerText">Copyright ©️ Megat Al Zhahir Daniel.</a>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

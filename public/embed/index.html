@@ -1,0 +1,30 @@
+<!--This document is essentially the headless version of the original index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Cache-Control" content="no-cache"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="AkaKitsune Project Website"/>
+        <meta name="author" content="alzhahir.com"/>
+        <meta property="og:title" content="Network Status Embed | AkaKitsune Project"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://status.mc.alzhahir.com"/>
+        <meta property="og:image" content="https://api.alzhahir.com/static/favicon.png"/>
+        <link rel="icon" type="image/png" href="https://api.alzhahir.com/static/favicon.png"/>
+        <link rel="stylesheet" href="https://api.alzhahir.com/styles.css">
+        <link rel="stylesheet" href="../styles.css">
+        <title>Network Status Embed | The New AkaKitsune Project</title>
+    </head>
+    <body style="background-color: transparent;">
+        <div style="background-color: rgba(255, 255, 255, 0);">
+            <div id="loadingSpinner">
+                <svg id="subjectSpinner" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                <circle class="path" fill="none" stroke-width="6" stroke-linecap="square" cx="33" cy="33" r="30">
+                </circle></svg>
+            </div>
+            <table class="table" id="statusTable"></table>
+        </div>
+        <script src="../scripts.js"></script>
+    </body>
+</html>

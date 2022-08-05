@@ -1,0 +1,40 @@
+#loadingSpinner{
+    margin: auto;
+    width: 100px;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table thead{
+    background-color: #aa3e35;
+    color:white;
+}
+.table tr{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.table tr td{
+    vertical-align: middle;
+    padding: 10px 15px 10px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.table tr th{
+    vertical-align: middle;
+    padding: 10px 15px 10px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+tbody tr:nth-child(odd){
+    background-color: #1f1f1f;
+    color: #fff;
+}
+tbody tr:nth-child(even){
+    background-color: #0f0f0f;
+    color: #fff;
+}
+svg{
+    vertical-align: middle;
+}
