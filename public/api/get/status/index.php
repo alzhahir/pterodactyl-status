@@ -2,10 +2,11 @@
     $rootDir = dirname(__DIR__, 4);
     $creds = parse_ini_file($rootDir."/.ini");
     $apikey = $creds["apikey"];
+    $hostname = $creds["hostname"];
     header('Content-Type:application/json; charset=utf-8');
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => 'https://panel.mc.alz.moe/api/application/servers',
+        CURLOPT_URL => "$hostname/api/application/servers",
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_TIMEOUT => 30,
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
@@ -36,7 +37,7 @@
         $isSuspended = $currserver['suspended'];
         $curlSpecific = curl_init();
         curl_setopt_array($curlSpecific, array(
-            CURLOPT_URL => "https://panel.mc.alz.moe/api/client/servers/$serverId/resources",
+            CURLOPT_URL => "$hostname/api/client/servers/$serverId/resources",
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_TIMEOUT => 30,
             CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_2,
