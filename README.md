@@ -1,4 +1,5 @@
 # Status Page for Pterodactyl
+## :warning:NOTE: THIS PROJECT IS BEING REWRITTEN FROM SCRATCH
 Status Page for AkaKitsune aims to help users to know the status for each servers hosted on AkaKitsune. Works on Pterodactyl v1+.
 
 ## Hosting/Installation
