@@ -15,18 +15,18 @@
     <!-- Styles -->
     @livewireStyles
 </head>
-    <body class="bg-white dark:bg-zinc-900 flex flex-col grow h-screen">
-        <div class="flex flex-row justify-between w-full bg-gray-200 text-gray-800 dark:bg-zinc-800 dark:text-gray-200 items-center shadow-md">
+    <body class="bg-white dark:bg-gradient-to-tr dark:from-zinc-900 dark:to-gray-800 flex flex-col grow h-screen">
+        <div class="flex flex-row justify-between w-full bg-gray-200 dark:bg-transparent text-gray-800 dark:text-gray-200 items-center">
             <a href="/" class="font-bold text-2xl p-5">{{ config('app.name', 'Laravel') }}</a>
-            <a href="login" class="bg-gradient-to-tr from-violet-800 to-sky-900 hover:scale-110 hover:from-violet-400 hover:to-sky-500 transition-all active:scale-100 text-white p-3 mr-4 rounded-2xl font-bold">LOGIN</a>
+            <a href="login" class="bg-gradient-to-tr hover:shadow-md from-violet-800 to-sky-900 hover:scale-110 hover:from-violet-400 hover:to-sky-500 transition-all active:scale-100 text-white p-3 mr-4 rounded-2xl font-bold">LOGIN</a>
         </div>
         <main class="p-5 text-gray-800 dark:text-gray-200 h-full">
             {{$slot}}
         </main>
-        <footer class="p-5 text-gray-800 dark:text-gray-200 bg-gray-200 dark:bg-zinc-800 mt-auto">
+        <footer class="p-5 text-gray-800 dark:text-gray-200 bg-gray-200 dark:bg-transparent mt-auto">
             <div class="flex flex-row">
                 <span class="">&copy; {{date('Y')}} Megat Al Zhahir Daniel. All rights reserved.</span>
-                <span class="ml-auto">Made with ❤️ by <a href="https://github.com/alzhahir" target="blank_" rel="noopener noreferrer" class="hover:text-sky-400">@alzhahir</a>.</span>
+                <span class="ml-auto">Made with ❤️ by <a href="https://github.com/alzhahir" target="blank_" rel="noopener noreferrer" class="hover:text-sky-400">@alzhahir</a>, MIT License.</span>
             </div>
         </footer>
     </body>
