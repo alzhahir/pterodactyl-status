@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ config('app.name', 'Laravel') }}</title>
+<html lang="en" class="h-screen">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ config('app.name', 'Laravel') }}</title>
 
-        <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+            <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-    <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <!-- Scripts -->
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <!-- Styles -->
-    @livewireStyles
-</head>
-    <body class="bg-white dark:bg-gradient-to-tr dark:from-zinc-900 dark:to-gray-800 flex flex-col grow h-screen">
+        <!-- Styles -->
+        @livewireStyles
+    </head>
+    <body class="bg-white dark:bg-gradient-to-tr dark:from-zinc-900 dark:to-gray-800 flex flex-col grow h-full">
         <div class="flex flex-row justify-between w-full bg-gray-200 dark:bg-transparent text-gray-800 dark:text-gray-200 items-center">
             <a href="/" class="font-bold text-2xl p-5">{{ config('app.name', 'Laravel') }}</a>
             <a href="login" class="bg-gradient-to-tr hover:shadow-md from-violet-800 to-sky-900 hover:scale-110 hover:from-violet-400 hover:to-sky-500 transition-all active:scale-100 text-white p-3 mr-4 rounded-2xl font-bold">LOGIN</a>
