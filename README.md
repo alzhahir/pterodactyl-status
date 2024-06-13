@@ -1,5 +1,8 @@
 # Status Page for Pterodactyl
-## :warning:NOTE: THIS PROJECT IS BEING REWRITTEN FROM SCRATCH
+
+> [!WARNING]
+> This project is being rewritten from scratch on Laravel. This means that any non-security issues will not be fixed.
+
 Status Page for AkaKitsune aims to help users to know the status for each servers hosted on AkaKitsune. Works on Pterodactyl v1+.
 
 ## Hosting/Installation
