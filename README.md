@@ -1,5 +1,8 @@
 # Status Page for Pterodactyl
 
+> [!CAUTION]
+> This branch is still in heavy development and **will not work** at all. Please use the main branch instead.
+
 Status Page for AkaKitsune aims to help users to know the status for each servers hosted on AkaKitsune. Works on Pterodactyl v1+.
 
 ## Hosting/Installation
