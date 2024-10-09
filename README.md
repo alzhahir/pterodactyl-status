@@ -21,7 +21,7 @@ git clone https://github.com/alzhahir/status
 3. Edit `index.html` according to your needs, and optionally, use your own `styles.css` for the page. You can also modify my `styles.css` from my [API assets repository](https://github.com/alzhahir/apiassets).
 4. Create an `.ini` file or rename `.ini.example` to `.ini`
 ```ini
-apikey = "<INSERT YOUR API KEY HERE>"
+apikey = "<INSERT YOUR PLTC API KEY HERE>"
 hostname = "<INSERT YOUR PANEL HOSTNAME HERE>"
 ```
 5. Setup the `public` directory for the web server. For example, Apache on Ubuntu:
