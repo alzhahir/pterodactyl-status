@@ -1,5 +1,8 @@
 # Status Page for Pterodactyl
 
+> [!CAUTION]
+> This repo is now archived. I am still planning to develop a newer Laravel-based pterodactyl-status, but it will be on a newer repo under [my dev organization](https://github.com/alzhahirdev).
+
 > [!WARNING]
 > This project is being rewritten from scratch on Laravel. This means that any non-security issues will not be fixed.
 
